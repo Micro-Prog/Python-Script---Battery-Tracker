@@ -24,7 +24,7 @@ def Shutdown(Check):
         os.system("reboot") # "shutdown" for power off
         exit()
     else:
-        print("Battery Power is above 10%")
+        print("The Battery Power is Above 10%")
 
 
 def readBattery():
